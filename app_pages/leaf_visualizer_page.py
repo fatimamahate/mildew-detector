@@ -10,27 +10,27 @@ import random
 
 def leaf_visualizer_page_body():
     st.header('Leaf Visualizer')
-    st.info()
+    st.info('content')
     version = 'v1'
 
     if st.checkbox('Check difference between mean and variability plots'):
         mean_var_healthy = plt.imread(f'outputs/{version}/avg_var_healthy.png')
         mean_var_powdery_mildew = plt.imread(f'outputs/{version}/avg_var_powdery_mildew.png')
-        st.info()
-        st.image(avg_var_healthy, caption='Mean and Variability of Healthy Leaves')
+        st.info('content')
+        st.image(mean_var_healthy, caption='Mean and Variability of Healthy Leaves')
         st.image(mean_var_powdery_mildew,
         caption='Mean and Variability of Powdery Mildew Leaves')
         st.write('---')
 
     if st.checkbox('Check difference between average healthy and powdery mildew leaves'):
         diff_bet_avg = plt.imread(f'outputs/{version}/avg_diff.png')
-        st.info()
+        st.info('content')
         st.image(diff_bet_avg, caption='Difference between Average Images')
     
     if st.checkbox('Montage'):
         st.write('Click on "Create Montage"')
-        st.info()
-        my_data_dir = 'inputs/full_dataset_cherry-leaves'
+        st.info('content')
+        my_data_dir = 'inputs/full_dataset/cherry-leaves'
         labels = os.listdir(my_data_dir+'/validation')
         label_to_disp = st.selectbox(
             label='Select a label:',
