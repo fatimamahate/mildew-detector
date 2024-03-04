@@ -32,7 +32,7 @@ def plot_pred_prob(pred_prob, pred_class):
 
 def resize_input_image(img, version):
     image_shape = load_pkl_file(file_path=f'outputs/{version}/image_shape.pkl')
-    img_resized = img.resize((image_shape[1], image_shape[0]), Image.ANTIALIAS)
+    img_resized = img.resize((image_shape[1], image_shape[0]), Image.LANCZOS)
     my_image = np.expand_dims(img_resized, axis=0)/255
 
     return my_image

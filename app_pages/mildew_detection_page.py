@@ -48,7 +48,7 @@ def make_pred(img_buffer):
             plot_pred_prob(pred_prob=pred_prob, pred_class=pred_class)
             df_report=df_report.append(
                 {
-                    'Name':image.name,
+                    'Name':img.name,
                     'Result': pred_class
                 },
                 ignore_index=True
