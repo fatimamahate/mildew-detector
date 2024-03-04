@@ -8,3 +8,21 @@ from src.machine_learning.predictive_analytics import (
     resize_input_image,
     plot_pred_prob
 )
+
+def mildew_detection_page_body():
+    st.header('Mildew Detection')
+    st.info(
+        f'Business Requirement 2 - The client is interested in '
+        f'predicting if a cherry leaf is healthy or contains '
+        f'powdery mildew.'
+    )
+    st.write('---')
+    st.info(
+        f'You can download the images from '
+        f'[Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves)'
+    )
+    st.write('---')
+    st.info(
+        f'Upload an image of a cherry leaf for predictions (more than one is permitted)'
+    )
+    
