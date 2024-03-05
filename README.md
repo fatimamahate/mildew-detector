@@ -12,6 +12,13 @@ You can [view the live app here](https://cherry-leaves-acdb1f6c2341.herokuapp.co
 3. [Hypothesis and How to Validate?](#hypothesis-and-how-to-validate)
 4. [Rationale to map the business requirements to the Data Visualisations and ML tasks](#rationale-to-map-the-business-requirements-to-the-data-visualisations-and-ml-tasks)
 5. [ML Business Case](#ml-business-case)
+6. [Dashboard Design](#dashboard-design)
+7. [Technologies](#technologies)
+8. [Deployment](#deployment)
+9. [Bugs](#bugs)
+10. [Credits](#credits)
+11. [Content](#content)
+12. [Acknowledgements](#acknowledgements)
 
 ## Dataset Content
 * We source our images from [Kaggle.](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
