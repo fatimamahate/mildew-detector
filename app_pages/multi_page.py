@@ -1,6 +1,9 @@
 import streamlit as st
 # Class will generate multiple streamlit pages
 class MultiPage:
+    """
+    Class to make multiple streamlit pages
+    """
     def __init__(self, app_name) -> None:
         self.pages = []
         self.app_name = app_name

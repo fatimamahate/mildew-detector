@@ -5,7 +5,10 @@ from matplotlib.image import imread
 from src.machine_learning.evaluate_clf import load_test_evaluation
 
 def ml_performance_page_metrics():
-    st.header('### Machine Learning (ML) Performance Metrics')
+    """
+    Function to show ML performance metrics (such as accuracy and losses)
+    """
+    st.header('Machine Learning (ML) Performance Metrics')
     version='v1'
     st.write('Train, Validation and Test Set: Frequencies')
     labels_dist = plt.imread(
@@ -17,7 +20,7 @@ def ml_performance_page_metrics():
         )
     st.write('---')
 
-    st.write('### Model History')
+    st.write('Model History')
     col1,col2=st.beta_columns(2)
     with col1:
         model_acc = plt.imread(
@@ -42,7 +45,7 @@ def ml_performance_page_metrics():
     )
     st.write('---')
 
-    st.write('### Generalised Performance on Test Set')
+    st.write('Generalised Performance on Test Set')
     st.dataframe(
         pd.DataFrame(
             load_test_evaluation(
@@ -51,7 +54,7 @@ def ml_performance_page_metrics():
             index=['Loss', 'Accuracy']
             )
         )
-    st.success('The model has accuracy of 99.73%')
+    st.success('The model has accuracy of 99.53%')
     load_test_evaluation(version=version)
     
 

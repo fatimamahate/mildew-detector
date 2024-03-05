@@ -1,6 +1,9 @@
 import streamlit as st
 
 def project_hypothesis_page_body():
+    """
+    Function for the content of the project hypothesis page
+    """
     st.header('Project Hypothesis and Validation')
     st.info(
         f'Whether cherry leaves are infected by powdery mildew '

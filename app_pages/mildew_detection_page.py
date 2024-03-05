@@ -10,6 +10,9 @@ from src.machine_learning.predictive_analytics import (
 )
 
 def mildew_detection_page_body():
+    """
+    Function to upload images to make a prediction
+    """
     st.header('Mildew Detection')
     st.info(
         f'Business Requirement 2 - The client is interested in '
@@ -32,6 +35,9 @@ def mildew_detection_page_body():
         make_pred(img_buffer)
 
 def make_pred(img_buffer):
+    """
+    Function to make a prediction on uploaded image
+    """
     if img_buffer is not None:
         df_report = pd.DataFrame([])
         for img in img_buffer:

@@ -9,6 +9,9 @@ import itertools
 import random
 
 def leaf_visualizer_page_body():
+    """
+    Function to show leaf montage as well as plots
+    """
     st.header('Leaf Visualizer')
     st.info(
         f'View the images and the differences between '
@@ -52,6 +55,8 @@ def leaf_visualizer_page_body():
     if st.checkbox('Montage'):
         st.write('Choose a class and then click on "Create Montage" to see images of that class')
         st.info(
+            f'Business Requirement 1 - The client is interested in conducting a study to '
+            f'visually differentiate a healthy cherry leaf from one with powdery mildew.\n'
             f'The montage shows a selection of healthy and powdery mildew '
             f'leaves. This helps to differentiate between each leaf visually. \n'
             f'The powdery mildew leaves have white speckles on the leaf '
@@ -111,6 +116,6 @@ def image_montage(dir_path, label_to_disp, nrows, ncols, figsize=(15,10)):
 
         st.pyplot(fig=fig)
     else: 
-        print('Error message here')
+        print(f'This label does not exist. Please choose from :{labels}')
 
 

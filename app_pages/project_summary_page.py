@@ -1,6 +1,9 @@
 import streamlit as st
 
 def project_summary_page_body():
+    """
+    Function for the content of project summary page
+    """
     st.title('Project Summary')
     st.info(
         f'Cherry trees are needed for the farming of cherries as well as being important for pollinators.'
@@ -14,15 +17,15 @@ def project_summary_page_body():
     )
     st.warning(
         f'The two business requirements for this project are: \n'
-        f'1) The client is interested in conducting a study to'
-        f' visually differentiate a healthy cherry leaf from one with powdery mildew.\n'
+        f'1) The client is interested in conducting a study to '
+        f'visually differentiate a healthy cherry leaf from one with powdery mildew.\n'
         f'2)The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.'
     )
     st.write(
         f'You can find the data set here \n'
-        f'[Dataset from Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves)\n'
+        f'[Dataset from Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves).\n'
         f'This data set has a total of 4208 images split evenly into two classes. \n'
-        f'The two classes of this dataset are healthy leaves and powdery mildew leaves \n'
+        f'The two classes of this dataset are healthy leaves and powdery mildew leaves. \n'
         f'For more information on this model, please visit '
         f'[Github README](https://github.com/fatimamahate/mildew-detector)'
     )
