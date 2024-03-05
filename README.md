@@ -149,15 +149,21 @@ The model has accuracy of 99.53% which is higher than the expectation of 97%.
 ## Deployment
 
 ### Heroku
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
-1. Log in to Heroku and create an App
-2. At the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file. 
+- The live is : https://cherry-leaves-acdb1f6c2341.herokuapp.com/
+- Ensure the stack is Heroku-20 as opposed to the default Heroku-22
+- To deploy
+    1. Log in to Heroku (may require Multi Factor Authentication)
+    2. Create an App with a unique name and select the relevant region.
+    3. Go to the Deploy tab and click on it.
+    4. Click on GitHub as your deployment method. 
+    5. Then find your repository.
+    6. Click search.
+    7. Once found, click connect. 
+    8. Select the branch you would like to deploy (in this case main) and then click deploy. 
+        - You can choose manual deploy (recommended when still making changes to your project)
+        - you can also choose automatic deploy(recommended when it is complete.)
+    9. click on open app. You should be able to see your app. 
+    10. If you cannot see the app, consider adding large files that are not needed for the app into your .slugignore file to reduce the size. 
 
 ## Bugs 
 - When getting the working directory, I struggled to get the correct one. Therefore, I used this answer in [Stack Overflow]() to work out how to get the correct working directory.
