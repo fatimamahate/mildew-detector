@@ -16,7 +16,7 @@ def ml_performance_page_metrics():
     )
     st.image(
         labels_dist,
-        caption='Train, Validation & Test Sets - Labels Distrubtion'
+        caption='Train, Validation & Test Sets - Labels Distribution'
         )
     st.write('---')
 

@@ -20,7 +20,7 @@ def leaf_visualizer_page_body():
 
     version = 'v1'
 
-    if st.checkbox('Check difference between mean and variability plots'):
+    if st.checkbox('Check difference between average and variability plots'):
         mean_var_healthy = plt.imread(f'outputs/{version}/avg_var_healthy.png')
         mean_var_powdery_mildew = plt.imread(f'outputs/{version}/avg_var_powdery_mildew.png')
         st.info(
