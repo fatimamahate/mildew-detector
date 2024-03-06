@@ -177,8 +177,8 @@ The model has accuracy of 99.53% which is higher than the expectation of 97%.
     10. If you cannot see the app, consider adding large files that are not needed for the app into your .slugignore file to reduce the size. 
 
 ## Bugs 
-- When getting the working directory, I struggled to get the correct one. Therefore, I used this answer in [Stack Overflow]() to work out how to get the correct working directory.
-- I repeatedly got an error which would say that PIL has no attribute called ANTIALIAS. Therefore, I used this answer in [Stack Overflow]() to solve the problem.  
+- When getting the working directory, I struggled to get the correct one. Therefore, I used this answer in [Stack Overflow](https://stackoverflow.com/questions/1810743/how-to-set-the-current-working-directory) to work out how to get the correct working directory.
+- I repeatedly got an error which would say that PIL has no attribute called ANTIALIAS. Therefore, I used this answer in [Stack Overflow](https://stackoverflow.com/questions/76616042/attributeerror-module-pil-image-has-no-attribute-antialias) to solve the problem.  
 - The size that you can deploy to Heroku is larger than what can be used in Github. Therefore, any files that are not necessary to running the app (such as this README file and documentation files) should be added to the .slugignore file. 
 - When first deploying to Heroku, the default stack Heroku uses is Heroku-22. It should be changed to Heroku-20. This can be done by logging into Heroku in ther terminal and then using the following commance - 'heroku stack:set heroku-20'
 
