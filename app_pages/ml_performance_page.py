@@ -18,6 +18,12 @@ def ml_performance_page_metrics():
         labels_dist,
         caption='Train, Validation & Test Sets - Labels Distribution'
         )
+    st.info(
+        f'* Train Set - 1472 images for each class  \n'
+        f'* Validation Set - 210 images for each class  \n'
+        f'* Test Set - 422 images for each class'
+
+    )
     st.write('---')
 
     st.write('Model History')
