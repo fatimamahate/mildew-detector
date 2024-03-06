@@ -146,7 +146,7 @@ The model has accuracy of 99.53% which is higher than the expectation of 97%.
 5. Microsoft Paint - to create wireframe
 6. Gitpod - where the code was written (the workspace)
 ### Python Libraries
-1. [numpy] (https://numpy.org/)
+1. [numpy](https://numpy.org/)
 2. [pandas](https://pandas.pydata.org/)
 3. [matplotlib](https://matplotlib.org/)
 4. [seaborn](https://seaborn.pydata.org/)
