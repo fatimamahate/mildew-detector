@@ -13,7 +13,7 @@ You can [view the live app here](https://cherry-leaves-acdb1f6c2341.herokuapp.co
 4. [Rationale to map the business requirements to the Data Visualisations and ML tasks](#rationale-to-map-the-business-requirements-to-the-data-visualisations-and-ml-tasks)
 5. [ML Business Case](#ml-business-case)
 6. [Dashboard Design](#dashboard-design)
-7. [Technologies](#technologies)
+7. [Technologies Used](#technologies-used)
 8. [Deployment](#deployment)
 9. [Bugs](#bugs)
 10. [Credits](#credits)
@@ -138,7 +138,7 @@ The dataset was split up as follows:
 
 The model has accuracy of 99.53% which is higher than the expectation of 97%. 
 
-## Technologies
+## Technologies Used
 1. Python
 2. Git - for version control and making commits and pushing to GitHub
 3. GitHub - where the code is saved (in a repo)
@@ -146,21 +146,21 @@ The model has accuracy of 99.53% which is higher than the expectation of 97%.
 5. Microsoft Paint - to create wireframe
 6. Gitpod - where the code was written (the workspace)
 ### Python Libraries
-1. numpy 
-2. pandas
-3. matplotlib
-4. seaborn
-5. plotly
-6. streamlit
-7. tensorflow
-8. shutil
-9. PIL
-10. joblib
+1. [numpy] (https://numpy.org/)
+2. [pandas](https://pandas.pydata.org/)
+3. [matplotlib](https://matplotlib.org/)
+4. [seaborn](https://seaborn.pydata.org/)
+5. [plotly](https://plotly.com/python/)
+6. [streamlit](https://streamlit.io/)
+7. [tensorflow](https://www.tensorflow.org/)
+8. [shutil](https://docs.python.org/3.8/library/shutil.html)
+9. [PIL](https://en.wikipedia.org/wiki/Python_Imaging_Library)
+10. [joblib](https://joblib.readthedocs.io/en/stable/)
 
 ## Deployment
 
 ### Heroku
-- The live is : https://cherry-leaves-acdb1f6c2341.herokuapp.com/
+- The live website is : https://cherry-leaves-acdb1f6c2341.herokuapp.com/
 - Ensure the stack is Heroku-20 as opposed to the default Heroku-22
 - To deploy
     1. Log in to Heroku (may require Multi Factor Authentication)
