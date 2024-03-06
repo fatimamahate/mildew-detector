@@ -16,7 +16,7 @@ def project_summary_page_body():
         f'and difficult especially in hot, humid climates.'
     )
     st.warning(
-        f'The two business requirements for this project are: '
+        f'The two business requirements for this project are:  \n'
         f'1) The client is interested in conducting a study to '
         f'visually differentiate a healthy cherry leaf from one with powdery mildew.  \n'
         f'2)The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.'
