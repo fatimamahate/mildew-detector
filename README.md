@@ -71,15 +71,15 @@ The farmer will be able to take pictures of the leaves on a tree and upload them
 ## Dashboard Design
 ### Wireframes
 The wireframes for this project are as below:
-![Project summary wireframe](/documentation/wireframes/1_wireframe_project_summary.png)
+![Project summary wireframe](/documentation/2_wireframes/1_wireframe_project_summary.png)
 
-![Leaf Visualizer wireframe](/documentation/wireframes/2_wireframe_leaf_visualizer.png)
+![Leaf Visualizer wireframe](/documentation/2_wireframes/2_wireframe_leaf_visualizer.png)
 
-![Mildew Detection wireframe](/documentation/wireframes/3_wireframe_mildew_detection.png)
+![Mildew Detection wireframe](/documentation/2_wireframes/3_wireframe_mildew_detection.png)
 
-![Project hypothesis wireframe](/documentation/wireframes/4_wireframe_project_hypothesis.png)
+![Project hypothesis wireframe](/documentation/2_wireframes/4_wireframe_project_hypothesis.png)
 
-![ML performance wireframe](/documentation/wireframes/5_wireframe_ML_performance.png)
+![ML performance wireframe](/documentation/2_wireframes/5_wireframe_ML_performance.png)
 
 The dashboard has a menu with 5 pages as follows:
 
