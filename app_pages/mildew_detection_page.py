@@ -21,7 +21,7 @@ def mildew_detection_page_body():
     )
     st.write('---')
     st.info(
-        f'You can download the images from  \n'
+        f'You can download the images from '
         f'[Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves).'
     )
     st.write('---')

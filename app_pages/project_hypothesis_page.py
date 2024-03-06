@@ -14,9 +14,9 @@ def project_hypothesis_page_body():
         f'be able to differentiate healthy and powdery mildew leaves to 97% accuracy.'
     )
     st.success(
-        f'-The image montage shows the differences between'
+        f'-The image montage shows the differences between '
         f'the healthy and powdery mildew leaves.  \n'
-        f'-The average, variability image and avg difference confirmed '
+        f'-The average, variability image and average difference confirmed '
         f'the hypothesis since it shows there are some color differences '
         f'particularly in the centre of the image.  \n'
         f'-Finally when testing the ML model and it can differentiate '
