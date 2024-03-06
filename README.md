@@ -185,8 +185,9 @@ The model has accuracy of 99.53% which is higher than the expectation of 97%.
 ## Credits
 1. As already mentioned I struggled to get the correct working directory, therefore I used the following advice in [Stack Overflow](https://stackoverflow.com/questions/1810743/how-to-set-the-current-working-directory).
 2. Once again, as mentioned, I repeatedly got an error which would say that PIL has no attribute called ANTIALIAS. Therefore, I used this answer in [Stack Overflow](https://stackoverflow.com/questions/76616042/attributeerror-module-pil-image-has-no-attribute-antialias) to solve the problem. 
-3. I repeatedly throughout the project used the [streamlit documentation](https://docs.streamlit.io/) which was very helpful and easy to use for each of the app pages. 
-4. The Walkthrough Project 1 - Malaria Detection was used for this project. The [videos]() as well as the github [repo]() were used to help guide this project in terms of the code and to generally understand what is happening at each stage. 
+3. Images for the image upload in the Mildew Detection section are taken from [Unsplash](https://unsplash.com/photos/green-leaf-on-white-surface-qcRMfoIWxRo) by Kwang Javier and from [Pexels](https://www.pexels.com/photo/bright-green-elm-tree-leaf-4131782/) by Kelly
+4. I repeatedly throughout the project used the [streamlit documentation](https://docs.streamlit.io/) which was very helpful and easy to use for each of the app pages. 
+5. The Walkthrough Project 1 - Malaria Detection was used for this project. The videos from [Code Institute](https://codeinstitute.net/) as well as the github [repo](https://github.com/GyanShashwat1611/WalkthroughProject01) were used to help guide this project in terms of the code and to generally understand what is happening at each stage. 
 
 ## Content
 1. To learn more about Mildew, I used this website from the [Royal Horticultural Society](https://www.rhs.org.uk/disease/powdery-mildews) in the UK.
