@@ -24,8 +24,8 @@ You can [view the live app here](https://cherry-leaves-acdb1f6c2341.herokuapp.co
 * We source our images from [Kaggle.](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
 * The data set has 4208 images of leaves which are equally seperated into two classes. 
 
-![Cherry Leaves - Healthy]()
-![Cherry Leaves - Powdery Mildew]()
+![Cherry Leaves - Kaggle Site](/documentation/1_dataset_content/kaggle_site.JPG)
+
 
 ## Business Requirements
 Farmy & Foods has a cherry tree plantation. Unfortunately, the cherry trees can be affected with powdery mildew. Traditionally, an employee would have to manually check if the tree has mildew. If it does, then a fungicidal wash would have to be applied. This process takes upward of 30 minutes per tree. Given that this a cherry farm, it is not efficient to carry the process for each tree. 
@@ -71,20 +71,20 @@ The farmer will be able to take pictures of the leaves on a tree and upload them
 ## Dashboard Design
 ### Wireframes
 The wireframes for this project are as below:
-![Project summary page](/documentation/wireframes/1_wireframe_project_summary.png)
+![Project summary wireframe](/documentation/wireframes/1_wireframe_project_summary.png)
 
-![Leaf Visualizer page](/documentation/wireframes/2_wireframe_leaf_visualizer.png)
+![Leaf Visualizer wireframe](/documentation/wireframes/2_wireframe_leaf_visualizer.png)
 
-![Mildew Detection page](/documentation/wireframes/3_wireframe_mildew_detection.png)
+![Mildew Detection wireframe](/documentation/wireframes/3_wireframe_mildew_detection.png)
 
-![Project hypothesis page](/documentation/wireframes/4_wireframe_project_hypothesis.png)
+![Project hypothesis wireframe](/documentation/wireframes/4_wireframe_project_hypothesis.png)
 
-![ML performance page](/documentation/wireframes/5_wireframe_ML_performance.png)
+![ML performance wireframe](/documentation/wireframes/5_wireframe_ML_performance.png)
 
 The dashboard has a menu with 5 pages as follows:
 
 #### 1. Project Summary
-![Project Summary]()
+![Project Summary](/documentation/3_project_summary/project_summary.JPG)
 * Information
     - General background is written as below:
         - Cherry trees are needed for the farming of cherries as well as being important for pollinators.However, cherry trees can be infected by the powdery mildew fungus which reduces the abilities of the plant.Mildew is a fungus that can grow over the leaves of the tree and produce a white, powdery substance.This reduces the ability of the tree to photosynthesise. Photosynthesis is essentially the method in how plants transform energy. Since the photosynthesis is reduced (due to the mildew), the tree will produce less cherries. For farmers, this would result in a smaller yield. For important pollinators, this would result in fewer flowers to actually pollinate. Traditionally, farmers would have to manually check each tree which is time consuming and and difficult especially in hot, humid climates.
@@ -96,30 +96,34 @@ The dashboard has a menu with 5 pages as follows:
     - It also contains information on how many images there are in total.
 
 #### 2. Leaf Visualizer
-![Leaf Visualizer Page]()
-![Average and Variability plots]()
-![Difference between average plots]()
-![Image Montage-Powdery Mildew]()
-![Image Montage-Healthy]()
+![Leaf Visualizer Page](/documentation/4_leaf_visualizer/1_leaf_visualizer_page.JPG)
+![Average and Variability plots](/documentation/4_leaf_visualizer/2_average_variability_plots.JPG)
+![Difference between average plots](/documentation/4_leaf_visualizer/3_average_difference_plots.JPG)
+![Image Montage-Powdery Mildew](/documentation/4_leaf_visualizer/4_montage_powdery.JPG)
+![Image Montage-Healthy](/documentation/4_leaf_visualizer/5_montage_healthy.JPG)
 * The leaf visualizer page aims to work on Business Requirement 1.
     - checkbox 1: Looks at the average and variability plots of healthy and infected leaves.
     - checkbox 2: Looks at the difference between the average of plots of the healthy and infected leaves. 
     - checkbox 3: Looks at the image montages of healthy and powdery mildew leaves respectively.  
 
 #### 3. Mildew Detection
-![Mildew Detection Page]()
-![Mildew Detection Page - Live Prediction]()
+![Mildew Detection Page](/documentation/5_mildew_detection/1_mildew_detection_page.JPG)
+* I obtained the image of the leaves below from [Pexels](https://www.pexels.com/photo/bright-green-elm-tree-leaf-4131782/) and [Unsplash](https://unsplash.com/photos/green-leaf-on-white-surface-qcRMfoIWxRo)
+![Mildew Detection Page - Live Prediction](/documentation/5_mildew_detection/2_live_pred_healthy.JPG)
+![Mildew Detection Page - Live Prediction - more than one image](/documentation/5_mildew_detection/3_live_pred_multi.JPG)
 * The mildew detection page aims to work on Business requirement 2. 
     - File uploader to upload your own files as long as they are .jpg or .png format.
     - The output is a prediction of the class of the leaf alongside the name of the file (useful for when more than one image is uploaded)
 
+
 #### 4. Project Hypothesis 
+![Project Hypothesis Page](/documentation/6_project_hypothesis/1_project_hypothesis.JPG)
 * The project hypothesis page shows the hypothesis of the project and the validation
 
 #### 5. ML Performance Metrics
-![Train, Validation and Test Set: Frequencies plot]()
-![Model History - Accuracy and Losses Plot]()
-![Model Evaluation report]()
+![Train, Validation and Test Set: Frequencies plot](/documentation/7_ML_performance_metrics/1_frequency_plot.JPG)
+![Model History (Accuracy and Losses Plot) and Evaluation](/documentation/7_ML_performance_metrics/2_model_history_eval.JPG)
+
 
 The dataset was split up as follows:
 * Train (70%)
@@ -137,7 +141,7 @@ The model has accuracy of 99.53% which is higher than the expectation of 97%.
 ## Technologies
 1. Python
 2. Git - for version control and making commits and pushing to GitHub
-3. Github - where the code is saved (in a repo)
+3. GitHub - where the code is saved (in a repo)
 4. Heroku - deployed project on here
 5. Microsoft Paint - to create wireframe
 6. Gitpod - where the code was written (the workspace)
