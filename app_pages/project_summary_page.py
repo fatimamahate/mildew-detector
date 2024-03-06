@@ -6,7 +6,7 @@ def project_summary_page_body():
     """
     st.title('Project Summary')
     st.info(
-        f'Cherry trees are needed for the farming of cherries as well as being important for pollinators.'
+        f'Cherry trees are needed for the farming of cherries as well as being important for pollinators. '
         f'However, cherry trees can be infected by the powdery mildew fungus which reduces the abilities of the plant. '
         f'Mildew is a fungus that can grow over the leaves of the tree and produce a white, powdery substance. '
         f'This reduces the ability of the tree to photosynthesise. Photosynthesis is essentially the method in how plants '
