@@ -31,7 +31,7 @@ def leaf_visualizer_page_body():
             f'the variability plot has purple color that is speckled. '
             f'The healthy leaf mean plot has green colour that is entirely green. '
             f'There are not any speckled white parts. Similarly, the respective '
-            f'varibility plot has purple colour that is entirely purple.'
+            f'varibility plot has purple colour that is entirely purple. '
             f'The shapes of each respective plots are similar so there are '
             f'no patterns to clearly differentiate between healthy and powdery leaves.'
         )

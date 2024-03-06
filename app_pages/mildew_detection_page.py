@@ -21,12 +21,12 @@ def mildew_detection_page_body():
     )
     st.write('---')
     st.info(
-        f'You can download the images from '
-        f'[Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves)'
+        f'You can download the images from  \n'
+        f'[Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves).'
     )
     st.write('---')
     st.info(
-        f'Upload an image of a cherry leaf for predictions (more than one is permitted)'
+        f'Upload an image of a cherry leaf for predictions (more than one is permitted).'
     )
     img_buffer=st.file_uploader(' ', type=['png', 'jpg'], accept_multiple_files=True)
     button_for_pred = st.button('Predict!')

@@ -41,7 +41,7 @@ def ml_performance_page_metrics():
     st.info(
         f'These plots show the accuracy and losses of model as '
         f'it is being trained. It is a normal curve and is not '
-        f'overfitted and underfitted. \n'
+        f'overfitted and underfitted.  \n'
     )
     st.write('---')
 
